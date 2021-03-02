@@ -1,0 +1,105 @@
+/* seul ciblage par balise autorisé/recommandé */
+body {
+    background-color: #ccc;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 800px;
+    /*width: 760px; /* 800 - 40 */
+    margin: 50px auto; /* marge haut et bas = 50px, marge droite & gauche auto */
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+.heading2 {
+    color: #777;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 4px solid #ccc;
+    padding-bottom: 10px;
+    margin: 10px 0;
+}
+
+.cell {
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+
+/* Dans la balise avec l'id "entete" trouve la ou les balises nav*/
+nav {
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 7px;
+    margin: 0 10px;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 15px;
+}
+
+  
+  
+#image-principale {
+    width: 75%;
+    margin-bottom: 10px;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+  
+#contact {
+    background-color: #ddd;
+    padding: 5px;
+    margin: -10px;
+    margin-top: 10px;
+}
+  
+#contact p {
+    text-align: center;
+    line-height: 1.15;
+    font-size: 12px;
+}
+  
+  /* TYPO */
+  
+h1 {
+    font-size: 3em;
+    text-align: center;
+    padding: 10px;
+}
+  
+h2 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: #777;
+    text-align: center;
+    border-bottom: 2px solid #cccccc;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+  
+p {
+    text-align: justify;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+  
+a {
+    color: #ed1243;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Accueil</title>
+    
+    <!-- On commence par lier la feuille de style reset.css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- pour ensuite ajouter nos propres styles -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!--
+        zone regroupant header & main
+        Emmet: div.container
+    -->
+    <div class="container">
+        <!-- Emmet: header>h1+nav>ul>li*3>a -->
+        <header>
+            <h1>Akira Toryama</h1>
+            <nav>
+                <ul>
+                    <li class="nav-item"><a href="#au-depart">Dragon Ball</a></li>
+                    <li class="nav-item"><a href="#maintenant">Dragon Ball Z</a></li>
+                    <li class="nav-item"><a href="https://dragonballsuper-france.fr/" target="_blank">DragonBall Super</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Emmet: main>h2+img+p+h2+(h3+p)*3 -->
+        <main>
+            <!-- Une bonne pratique, c'est de mettre un id à chaque section
+            Ainsi, ensuite, on pourra créer un lien direct vers cette partie du document (#au-depart) -->
+            <section id="au-depart">
+                <h2 class="heading2">Au départ, il y avait Dragon ball...</h2>
+                <img class="cell" src="../images/cell.png" alt="image personnage Cell">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque aperiam adipisci totam rem sed nesciunt, dicta possimus blanditiis asperiores a dolore, natus, mollitia ipsa velit fugiat cum ad cumque corporis!
+                </p>
+            </section>
+
+            <section id="maintenant">
+                <h2 class="heading2">...Maintenant, il y a des Z warriors</h2>
+                <h3>Les Super guerriers</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum iure ipsam aliquam tempore molestiae accusantium, quidem corrupti labore sit beatae laboriosam nihil aliquid! Animi officiis tempora qui est commodi sapiente?
+                </p>
+                <h3>Les Nameks</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci deleniti in repellendus odit dolore temporibus rem provident totam voluptates dolorum, praesentium id a eaque voluptatem quae quis quisquam quia voluptatum.
+                </p>
+                <h3>Les Cyborgs</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum neque quos aperiam explicabo ea tempore excepturi natus, sapiente, quibusdam voluptas ipsa ratione pariatur culpa esse blanditiis soluta quae magni deleniti.
+                </p>
+            </section>
+        </main>
+    </div>
+
+    <!-- Emmet: footer>p -->
+    <footer>
+        <p>
+            Pour nous contacter, n'hésitez à nous écrire sur bouboul@gmail.com
+            Vous pouvez aussi nous passer un coup de fil sur XXXXXXXX.
+        </p>
+    </footer>
+</body>
+</html>
